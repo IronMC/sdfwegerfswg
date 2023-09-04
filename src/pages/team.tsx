@@ -17,7 +17,7 @@ const Team: NextPage = () => {
     <>
       <SEO
         title="Team"
-        description="Meet the team behind LeavesMC, a Minecraft software organization focusing on improving
+        description="Meet the team behind Nanaica, a Minecraft software organization focusing on improving
             the game’s ecosystem with faster and more secure software."
         keywords={["leavesmc", "leaves", "minecraft", "team"]}
       />
@@ -27,7 +27,7 @@ const Team: NextPage = () => {
             Meet our team
           </h1>
           <p className="text-xl mt-4">
-            Meet the members behind LeavesMC, a Minecraft software organization
+            Meet the members behind Nanaica, a Minecraft software organization
             focusing on improving the game’s ecosystem with faster and more
             secure software.
           </p>
@@ -37,7 +37,7 @@ const Team: NextPage = () => {
             </Button>
             <Button
               variant="outlined"
-              href="https://github.com/LeavesMC"
+              href="https://github.com/Nanaica"
               external
             >
               GitHub
@@ -102,8 +102,7 @@ const Team: NextPage = () => {
         <h2 className="text-2xl font-medium mb-2">Contributors</h2>
         <p>
           Contributors are those people who have helped the organization by
-          making important contributions to our codebases. From adding a new
-          redstone engine to PRing a fix for a nasty bug, our contributors have
+          making important contributions to our codebases. From Helping With The Website or Giving Us Suggestions, our contributors have
           helped us to provide the best software we possibly can.
         </p>
         <div className="grid grid-cols-8 md:grid-cols-16 lg:grid-cols-18 xl:grid-cols-20 mt-8 gap-2">
