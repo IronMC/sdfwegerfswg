@@ -10,7 +10,7 @@ import type {
   VersionFamilyBuilds,
 } from "@/lib/service/types";
 
-const API_ENDPOINT = "https://api.nanaicamc.tk";
+const API_ENDPOINT = "https://api.leavesmc.top";
 
 const fetcher = (path: string) =>
   fetch(API_ENDPOINT + path).then((res) => res.json());
