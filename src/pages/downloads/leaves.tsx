@@ -10,23 +10,23 @@ const LeavesDownloads = ({ project }: ProjectProps): ReactElement => {
   return (
     <>
       <SEO
-        title="Leaves Downloads"
-        description="Download Leaves, our Minecraft server software offering unrivaled performance and stability."
+        title="Nanaica Downloads"
+        description="Download Nanaica, our Minecraft server software offering unrivaled performance and stability."
         keywords={[
-          "leavesmc",
+          "nanaicamc",
           "minecraft",
           "vanilla",
-          "leaves",
+          "nanaica",
           "downloads",
           "jar",
         ]}
       />
       <SoftwareDownload
-        id="leaves"
+        id="nanaica"
         project={project}
         icon={LeavesIcon}
-        description="Download Leaves, our Minecraft server software offering unrivaled performance and stability."
-        experimentalWarning="Download experimental builds of Leaves, our Minecraft server software offering unrivaled performance and stability. Proceed with caution!"
+        description="Download Nanaica, our Minecraft server software offering unrivaled performance and stability."
+        experimentalWarning="Download experimental builds of Nanaica, our Minecraft server software offering unrivaled performance and stability. Proceed with caution!"
       />
     </>
   );
