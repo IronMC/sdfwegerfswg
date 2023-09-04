@@ -12,7 +12,7 @@ const Contribute: NextPage = () => (
     <SEO
       title="Contributing"
       description="Without contributors our projects wouldn't be possible. Find out how you can help."
-      keywords={["leavesmc", "leaves", "minecraft", "sponsor", "contributing"]}
+      keywords={["nanaicamc", "nanaica", "minecraft", "sponsor", "contributing"]}
     />
     <header className="max-w-7xl flex flex-row mx-auto px-4 pt-32 pb-16 lg:(pt-48 pb-32) gap-16">
       <div className="flex-1">
@@ -61,7 +61,7 @@ const Contribute: NextPage = () => (
         <div className="flex flex-row gap-4 mt-8">
           <Button
             variant="filled"
-            href="https://github.com/LeavesMC/Leaves/blob/master/docs/CONTRIBUTING.md"
+            href="https://github.com/Nanaica/NanaicaMC"
             external
             dense
           >
@@ -108,7 +108,7 @@ const Contribute: NextPage = () => (
         <div className="flex flex-row gap-4 mt-8">
           <Button
             variant="filled"
-            href="https://github.com/LeavesMC/docs"
+            href="https://docs.nanaicamc.tk"
             external
             dense
           >
