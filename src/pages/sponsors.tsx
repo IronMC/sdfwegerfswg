@@ -14,7 +14,7 @@ const Sponsors: NextPage = () => {
       <SEO
         title="Sponsors"
         description="Without contributors our projects wouldn't be possible. Find out how you can help."
-        keywords={["leavesmc", "leaves", "minecraft", "sponsor", "contributing"]}
+        keywords={["nanaicamc", "nanaica", "minecraft", "sponsor", "contributing"]}
       />
       <header className="max-w-7xl flex flex-row mx-auto px-4 pt-32 pb-16 lg:(pt-48 pb-32) gap-16">
         <div className="flex-1">
@@ -22,7 +22,7 @@ const Sponsors: NextPage = () => {
             Sponsors
           </h1>
           <p className="text-xl mt-4">
-            LeavesMC is an open community, and part of managing the community
+            NanaicaMC is an open community, and part of managing the community
             involves paying for services, servers, and infrastructure. We do
             what we can to keep our costs reasonable and sustainable, but still
             some costs are unavoidable.
@@ -30,17 +30,17 @@ const Sponsors: NextPage = () => {
           <div className="flex flex-row gap-4 mt-8">
             <Button
               variant="filled"
-              href="https://patreon.com/violetc422"
+              href="https://www.patreon.com/nanaicamc"
               external
             >
               Patreon
             </Button>
             <Button
               variant="outlined"
-              href="https://afdian.net/a/s-yh-china"
+              href="https://ko-fi.com/nanaicamc"
               external
             >
-              爱发电
+             Ko-fi
             </Button>
           </div>
         </div>
@@ -58,12 +58,12 @@ const Sponsors: NextPage = () => {
             <FeatureCard
               icon={GlobeAmericasIcon}
               label="Sustainability"
-              description="Donations help keep LeavesMC sustainable and open to all. Only those who can afford to donate should do so, and no one should feel bad if they can't."
+              description="Donations help keep NanaicaMC sustainable and open to all. Only those who can afford to donate should do so, and no one should feel bad if they can't."
             />
             <FeatureCard
               icon={BoltIcon}
               label="Future plans"
-              description="We need to upgrade our hosting to meet the growing demand for our services and APIs. This will increase costs, which we hope to offset with donations through Patreon and Afdian."
+              description="We need to upgrade our hosting to meet the growing demand for our services and APIs. This will increase costs, which we hope to offset with donations through Patreon and Ko-Fi."
             />
             <FeatureCard
               icon={HeartIcon}
@@ -77,5 +77,5 @@ const Sponsors: NextPage = () => {
   );
 };
 
-// TODO: Add 爱发电 sponsors & Patreon sponsors
+// TODO: Add Ko-Fi sponsors & Patreon sponsors
 export default Sponsors;
