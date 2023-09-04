@@ -7,7 +7,7 @@ import SEO from "@/components/util/SEO";
 import type { Project } from "@/lib/service/types";
 import { useVersionBuilds, getProject } from "@/lib/service/v2";
 
-const INITIAL_PROJECT = "nanaica";
+const INITIAL_PROJECT = "leaves";
 
 interface LegacyDownloadProps {
   initialProjectId: string;
