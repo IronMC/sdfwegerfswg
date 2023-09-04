@@ -9,12 +9,12 @@ const Downloads: NextPage = () => {
     <>
       <SEO
         title="Downloads"
-        description="Find downloads for our software – including Leaves."
+        description="Find downloads for our software – including Nanaica."
         keywords={[
-          "leavesmc",
+          "nanaicamc",
           "minecraft",
           "vanilla",
-          "leaves",
+          "nanaica",
           "downloads",
         ]}
       />
@@ -27,10 +27,10 @@ const Downloads: NextPage = () => {
         </p>
         <div className="grid md:grid-cols-3 lg:mt-6 gap-2 px-2 xl:gap-4">
           <SoftwarePreview
-            id="leaves"
-            name="Leaves"
+            id="nanaica"
+            name="Nanaica"
             icon={LeavesIcon}
-            description="Leaves is a Minecraft game server, designed to repair broken vanilla properties."
+            description="Nanaica is a all in one Minecraft server implementation "
             download
           />
         </div>
