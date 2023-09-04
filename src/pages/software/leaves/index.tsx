@@ -18,11 +18,11 @@ const LeavesHome = ({ project }: ProjectProps): ReactElement => {
   return (
     <>
       <SEO
-        title="Leaves"
-        description="Leaves is a Minecraft game server based on Paper, designed to repair broken vanilla properties."
+        title="Nanaica"
+        description="Nanaica is a all in one Minecraft server implementation."
         keywords={[
-          "leavesmc",
-          "leaves",
+          "nanaicamc",
+          "nanaica",
           "server",
           "minecraft",
           "vanilla",
@@ -31,18 +31,18 @@ const LeavesHome = ({ project }: ProjectProps): ReactElement => {
         ]}
       />
       <SoftwareHeader
-        id="leaves"
-        name="Leaves"
+        id="nanaica"
+        name="Nanaica"
         versionGroup={project.latestVersionGroup}
         icon={LeavesIcon}
         header={
           <>
-            Following vanilla properties
+            Performance Matters
             <br />
             <span className="text-green-500">Minecraft server</span>
           </>
         }
-        description="Leaves is a Minecraft game server based on Paper, designed to repair broken vanilla properties."
+        description="Nanaica is a all in one Minecraft server implementation."
       />
       <section
         id="why"
@@ -56,17 +56,17 @@ const LeavesHome = ({ project }: ProjectProps): ReactElement => {
             <FeatureCard
               icon={BoltIcon}
               label="It's stupidly fast"
-              description="Leaves contains numerous improvements and optimizations resulting in a significant increase in performance. This includes asynchronous chunk loading, as well as major optimizations to the light engine, hoppers, entities, and more."
+              description="Nanaica contains numerous improvements and optimizations resulting in a significant increase in performance. This includes asynchronous chunk loading, as well as major optimizations to the light engine, hoppers, entities, and more."
             />
             <FeatureCard
               icon={ChatBubbleLeftRightIcon}
               label="An active and growing community"
-              description="Leaves has an active and growing community of server administrators and developers. If you encounter any problems, you can come talk with us on Discord and get real time support."
+              description="Nanaica has an active and growing community of server administrators and developers. If you encounter any problems, you can come talk with us on Discord and get real time support."
             />
             <FeatureCard
               icon={CodeBracketIcon}
               label="An expanded API"
-              description="Leaves extends and improves the Bukkit and Paper APIs so that you and your developers have more features and functionality at your fingertips."
+              description="Nanaica extends and improves the Bukkit and Paper APIs so that you and your developers have more features and functionality at your fingertips."
             />
           </div>
         </div>
@@ -100,7 +100,7 @@ const LeavesHome = ({ project }: ProjectProps): ReactElement => {
               </Button>
               <Button
                 variant="outlined"
-                href="https://docs.leavesmc.top/leaves/getting-started"
+                href="https://docs.nanaicamc.tk"
                 external
                 dense
               >
@@ -131,7 +131,7 @@ const LeavesHome = ({ project }: ProjectProps): ReactElement => {
             <div className="flex flex-row gap-4 mt-8">
               <Button
                 variant="filled"
-                href="https://discord.gg/5hgtU72w33"
+                href="https://dsc.gg/nanaicamc"
                 external
                 dense
               >
@@ -146,7 +146,7 @@ const LeavesHome = ({ project }: ProjectProps): ReactElement => {
 };
 
 LeavesHome.softwareProps = {
-  github: "https://github.com/LeavesMC/Leaves",
+  github: "https://github.com/Nanaica/NanaicaMC",
 };
 
 export default LeavesHome;
