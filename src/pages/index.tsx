@@ -16,9 +16,9 @@ const Home: NextPage<ProjectProps> = ({ project }) => {
     <>
       <SEO
         title="Home"
-        description="LeavesMC is a Minecraft software organization focusing on improving
+        description="NanaicaMC is a Minecraft software organization focusing on improving
             the game’s ecosystem with faster and more secure software."
-        keywords={["leavesmc", "leaves", "minecraft", "vanilla"]}
+        keywords={["nanaicamc", "nanaica", "minecraft", "vanilla"]}
       />
       <header className="max-w-7xl flex flex-row mx-auto px-4 pt-32 pb-26 lg:(pt-48 pb-46)">
         <div className="flex-1">
@@ -27,7 +27,7 @@ const Home: NextPage<ProjectProps> = ({ project }) => {
             <span className="text-green-500">Born for vanilla.</span>
           </h1>
           <p className="text-xl mt-4">
-            LeavesMC improves Minecraft’s ecosystem with fast, secure
+            NanaicaMC improves Minecraft’s ecosystem with fast, secure
             and stable software available, providing quick releases and
             helpful support as the most maverick.
           </p>
@@ -35,7 +35,7 @@ const Home: NextPage<ProjectProps> = ({ project }) => {
             <Button variant="filled" href="/downloads">
               Downloads
             </Button>
-            <Button variant="outlined" href="https://docs.leavesmc.top" external>
+            <Button variant="outlined" href="https://docs.nanaicamc.tk" external>
               Documentation
             </Button>
           </div>
@@ -71,7 +71,7 @@ const Home: NextPage<ProjectProps> = ({ project }) => {
               &nbsp;players
             </h2>
             <p className="md:(mt-6 text-xl) text-gray-900 dark:text-gray-100 mt-3">
-              LeavesMC’s software is designed with utility and performance
+              NanaicaMC’s software is designed with utility and performance
               in mind, it can handle whatever you throw at it.
             </p>
           </div>
