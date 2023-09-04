@@ -14,14 +14,14 @@ import NavBar from "@/components/layout/NavBar";
 const MyApp = ({ Component, pageProps, router }: AppProps) => (
   <>
     <script async src="https://umami.skinow.skin/script.js"
-      data-website-id="2b1cd1c4-1779-4bfa-841c-7106cb7733f8"
+      data-website-id="3d8a3706-9a30-4477-9a18-c028c466794d"
       data-do-not-track="true"
-      data-domains="leavesmc.top"
+      data-domains="nanaicamc.tk"
     ></script>
     <script async src="https://umami.skinow.skin/script.js"
-      data-website-id="09b01113-976e-444b-b10e-b3550f5184a9"
+      data-website-id="3d8a3706-9a30-4477-9a18-c028c466794d"
       data-do-not-track="true"
-      data-domains="www.leavesmc.top"
+      data-domains="www.nanaicamc.tk"
     ></script>
     <NavBar component={Component} />
     <main className="flex-1">
