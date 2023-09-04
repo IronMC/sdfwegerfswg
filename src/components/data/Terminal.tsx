@@ -33,7 +33,9 @@ export function Terminal({ project }: ProjectProps) {
       "Preparing start region for dimension minecraft:the_nether",
       "Time elapsed: 147 ms",
       "Preparing start region for dimension minecraft:the_end",
-      "Time elapsed: 366 ms",
+      "NanaicaMC: Your Up To Date!",
+      "NanaicaMC: No Errors Found!",
+      "Time elapsed: 366ms",
       "Running delayed init tasks",
     ];
 
@@ -46,7 +48,7 @@ export function Terminal({ project }: ProjectProps) {
       }
 
       let currentArgs = "";
-      for (const char of " -jar leaves.jar") {
+      for (const char of " java -Xms4G -Xmx6G -jar nanaica.jar nogui") {
         currentArgs += char;
         setArgs(currentArgs);
         await sleep(getNaturalDelay());
